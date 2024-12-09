@@ -14,9 +14,11 @@ Follow instructions below to run the blog in Docker container
 
 ## Requirements
 
-1. Docker installed on your system
+- [Docker](https://www.docker.com)
 
-2. Get this repository
+- [Git](https://git-scm.com)
+
+- Clone this repository from [GitHub](https://github.com/alber999/savethecode-blog)
 
 ```
 git clone git@github.com:alber999/savethecode-blog.git
