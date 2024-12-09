@@ -20,6 +20,8 @@ Docker installed on your system
 
 ### Run
 
+Create and start container
+
 ```
 docker run -d --name savethecode-blog \
 -e url='http://localhost:3001' \
@@ -30,15 +32,13 @@ docker run -d --name savethecode-blog \
 ghost:3
 ```
 
-### Stop
+### Common
+
+Once container exists
 
 ```
+docker start savethecode-blog
 docker stop savethecode-blog
-```
-
-### Remove
-
-```
 docker rm savethecode-blog
 ```
 
