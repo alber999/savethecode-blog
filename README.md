@@ -26,7 +26,7 @@ docker run -d --name savethecode-blog \
 -e database__client='sqlite3' \
 -e database__connection__filename='/var/lib/ghost/content/data/ghost.db' \
 -p 3001:2368 \
--v .:/var/lib/ghost/content \
+-v ./content:/var/lib/ghost/content \
 ghost:3
 ```
 
